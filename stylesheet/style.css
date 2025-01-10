@@ -1,11 +1,9 @@
 *{
-    /* font-family: Fira Sans; */
-
-    
-
-
-    
 }
+body{
+    background:rgb(245, 245, 245);
+}
+
 /* shared stuff */
 .btn {
     background: rgb(0, 106, 80);
@@ -18,6 +16,9 @@
 .bd-2 {
     display: flex;
     background: rgb(198, 228, 214);
+    width: 1280px;
+height: 560px;
+margin: 80px 0px;
     
 border-radius: 24px;
 }
@@ -29,10 +30,11 @@ border-radius: 24px;
 }
 
 .bd-2-main{
-padding-left: 59.99px;
-padding-right: 64px;
-padding-top: 177px;
+padding-top: 100px;
 padding-bottom: 117px;
+width: 622px;
+height: 326px;
+margin: 0px 64px;
 
 }
 .bd-2-main-2{   
@@ -47,20 +49,33 @@ font-weight: 500;
 line-height: 29px;
 letter-spacing: 0%;
 text-align: left;
+width: 622px;
+height: 29px;
+margin: 16px 0px;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
 
 }
 
-.bd-2-main-heading{color: rgb(14, 14, 14);
+.bd-2-main-heading{
+    color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
     letter-spacing: 0%;
     text-align: left;
+    width: 622px;
+height: 201px;
+margin: 16px 0px;
 
 }
 
-.bd-2-main-btn{color: rgb(255, 255, 255);
+.bd-2-main-btn{
+    color: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
@@ -92,3 +107,166 @@ width: 302px;
 height: 244px;
 
 }
+
+/* third visoin-section */
+.visoin-section{
+    margin-top: 80px;
+    width: 1280px;
+height: 765px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 0px;
+}
+
+.vision-h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;  
+}
+.vision-para{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.vision-box{
+    display: flex;
+    width: 1280px;
+height: 325px;
+gap: 24;
+align-items: center;
+}
+.bg-green{
+    background: rgb(198, 228, 214);
+}
+.bg-yellow{
+    background: rgb(247, 235, 207);
+}
+.bg-blue{
+    background: rgba(84, 144, 245, 0.2);
+}
+.vision-box-1{
+    box-sizing: border-box;
+border-radius: 16px;
+
+
+width: 410.67px;
+height: 325px;
+margin: 32px 24px;
+padding: 32px;
+
+
+}
+
+.vision-box-heading{color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+
+}
+.vision-box-para{color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+.btn-vision{
+    border-radius: 8px;
+    border: none;
+
+    background: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    width: 122px;
+    height: 41px;
+        color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+
+
+
+
+.vision-2{
+width: 1280px;
+height: 256px;
+padding: 48px 24px 48px 24px;
+margin: 32px 24px;
+margin-bottom: 80px;
+
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+
+}
+
+.visoin-2-pera{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+width: 1232px;
+height: 96px;
+margin: 12px 0px;
+}
+
+.visoin-2-heading{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 4px 0px;
+
+   
+}
+.visoin-2-last-pera{
+    width: 1232px;
+    height: 24px;
+    margin: 4px 0px;
+    color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+
+
+/* forth section */
+
+
+
