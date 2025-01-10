@@ -1,0 +1,94 @@
+*{
+    /* font-family: Fira Sans; */
+
+    
+
+
+    
+}
+/* shared stuff */
+.btn {
+    background: rgb(0, 106, 80);
+    border-radius: 8px;
+
+    color: aliceblue;
+    padding: 17px 34px 17px 34px;
+}
+/* first page */
+.bd-2 {
+    display: flex;
+    background: rgb(198, 228, 214);
+    
+border-radius: 24px;
+}
+
+.imgone {
+    width: 474.03px;
+    height: 329.21px;
+    left: 157.37%;
+}
+
+.bd-2-main{
+padding-left: 59.99px;
+padding-right: 64px;
+padding-top: 177px;
+padding-bottom: 117px;
+
+}
+.bd-2-main-2{   
+    padding:80px 118px 80px 64px ;
+}
+
+.bd-2-main-p{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.bd-2-main-heading{color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.bd-2-main-btn{color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+/* section second  */
+
+
+
+.pillars{
+    display: flex;
+    gap: 24px;
+
+
+
+}
+.pillars-1{
+    padding: 24px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+width: 302px;
+height: 244px;
+
+}
