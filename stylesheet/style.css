@@ -144,13 +144,11 @@ padding: 0px;
 
 .vision-h1{
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
     text-align: left; 
-    margin: 26px; 
+    margin-top:  26px; 
+    margin-bottom:  26px; 
 }
 .vision-para{
     color: rgba(14, 14, 14, 0.7);
