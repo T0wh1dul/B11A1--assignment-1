@@ -114,9 +114,6 @@ color: rgb(73, 65, 65);
 .pillars{
     display: flex;
     gap: 24px;
-
-
-
 }
 .pillars-1{
     padding: 24px;
@@ -128,6 +125,7 @@ background: rgb(255, 255, 255);
 width: 302px;
 height: 244px;
 cursor: pointer;
+margin-top: 32px;
 
 }
 
@@ -151,7 +149,8 @@ padding: 0px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0%;
-    text-align: left;  
+    text-align: left; 
+    margin: 26px; 
 }
 .vision-para{
     color: rgba(14, 14, 14, 0.7);
@@ -168,6 +167,7 @@ text-align: left;
 height: 325px;
 gap: 24;
 align-items: center;
+margin-top: 32px;
 }
 .bg-green{
     background: rgb(198, 228, 214);
@@ -489,6 +489,17 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left; 
 }
+.section-5th-box-des-pera{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 32px;
+
+}
+
+.al-jazeera{
+    margin: 12px 0px;
+}
 .btn-sec-5:hover{
     transform: scale(1.2);
 color: rgb(90, 45, 45);
@@ -539,6 +550,7 @@ flex-grow: 0;
     line-height: 40px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 32px;
 }
 
 
@@ -659,7 +671,7 @@ letter-spacing: 0%;
 .sec-7-main{
 
 width: 1280px;
-height: 295px;
+height: 200px;
 padding: 80px 0px 80px 0px;
 margin: 80px 0px;
 text-align: center;
