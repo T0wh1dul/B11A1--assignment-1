@@ -2,21 +2,33 @@
 }
 body{
     background:rgb(245, 245, 245);
-    /* Bangladesh 2.0 */
-position: relative;
-width: 1600px;
-height: 5300px;
 }
 
 /* shared stuff */
+.btn:hover{
+    transform: scale(1.1);
+color: rgb(20, 21, 20);
+}
 .btn {
     background: rgb(0, 106, 80);
     border-radius: 8px;
 
     color: aliceblue;
     padding: 17px 34px 17px 34px;
+    border: none;
+    cursor: pointer;
 }
 /* first page */
+.sign-in:hover{
+    transform: scale(1.1);
+color: rgb(0, 0, 0);
+}
+.sign-in{
+    cursor: pointer;
+}
+
+
+
 .bd-2 {
     display: flex;
     background: rgb(198, 228, 214);
@@ -92,7 +104,10 @@ margin: 16px 0px;
 /* section second  */
 
 
-
+.pillars-1:hover{
+    transform: scale(1.1);
+color: rgb(73, 65, 65);
+}
 .pillars{
     display: flex;
     gap: 24px;
@@ -109,6 +124,7 @@ border-radius: 16px;
 background: rgb(255, 255, 255);
 width: 302px;
 height: 244px;
+cursor: pointer;
 
 }
 
@@ -191,6 +207,10 @@ padding: 32px;
     text-align: left;
     margin: 12px 0px;
 }
+.btn-vision:hover{
+    transform: scale(1.1);
+color: rgb(0, 0, 0);
+}
 .btn-vision{
     border-radius: 8px;
     border: none;
@@ -206,6 +226,7 @@ padding: 32px;
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+    cursor: pointer;
 }
 
 
@@ -365,7 +386,10 @@ background: rgba(255, 255, 255, 0.1);
 width: 200px;
 height: 92px;
 }
-
+.btn-openion-table:hover{
+    transform: scale(1.1);
+color: rgb(0, 0, 0);
+}
 .btn-openion-table{
 
 width: 152px;
@@ -384,6 +408,7 @@ border: 1px solid rgb(14, 14, 14);
 border-radius: 4px;
 
 background: rgb(198, 228, 214);
+cursor: pointer;
 }
 
  /* 5th section (recent news) */
@@ -427,17 +452,21 @@ text-align: left;
 background: rgb(255, 255, 255);
 padding: 48px;
 display: flex;
+ 
 
 
 }
 
 
-
+.section-5th-box-img:hover{
+    transform: scale(1.1);
+}
 .section-5th-box-img{
     width: 408px;
 height: 306px;
 
 border-radius: 24px;
+cursor: pointer;
 
  
 }
@@ -457,7 +486,10 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left; 
 }
-
+.btn-sec-5:hover{
+    transform: scale(1.2);
+color: rgb(90, 45, 45);
+}
 .btn-sec-5{
     color: rgb(255, 255, 255);
 font-family: Fira Sans;
@@ -470,7 +502,7 @@ margin-bottom: 56px 0px;
 color: aliceblue;
 padding: 13px 26px 13px 26px;
 border: none;
-
+cursor: pointer;
 }
 
 
@@ -530,6 +562,12 @@ display: flex;
     background: rgb(198, 228, 214);
 }
 .bd-white{background: rgb(255, 255, 255)}
+
+.donate-btn-1:hover{
+    transform: scale(1.1);
+color: rgb(0, 0, 0);
+}
+
 .donate-btn-1{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -560,9 +598,14 @@ font-size: 35px;
 font-weight: 700;
 line-height: 48px;
 letter-spacing: 0%;
+cursor: pointer;
 
 }
 
+.btn-sec-6:hover{
+    transform: scale(1.1);
+color: lightgreen;
+}
 .btn-sec-6{
 
 /* Frame 2 */
@@ -589,6 +632,7 @@ border-radius: 8px;
 background: rgb(0, 106, 80);
 color: rgb(255, 255, 255);
 font-weight: 600;
+cursor: pointer;
 }
 
 .donate-amount{
@@ -666,7 +710,11 @@ color: rgb(255, 255, 255);
 font-size: 16px;
 font-weight: 600;
 border: none;
+cursor: pointer;
 }
+.sec-7-submit:hover{
+    transform: scale(1.1);}
+
 .sec-7-lastpera{
     color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
@@ -677,17 +725,38 @@ margin: 24px 0px;
 /* footer-last section */
 
 
-.footer-
+.footer-last-section{
+   background: rgb(255, 255, 255);
+   width: 1280px;
+height: 226px;
+
+}
 .footer-h{
-width: 222px;
-height: 38px;
-
-
-color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 32px;
+    text-align: center;
+    margin: 16px 0px;
+    padding-top:50px ;
+    color: rgb(14, 14, 14);
+font-size: 38px;
 font-weight: 700;
-letter-spacing: 0%;
-text-align: center;
 
+
+}
+
+.hr-class{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    width: 980px;
+}
+.div-img{  
+    display: flex;
+    justify-content: center;
+    margin: 37px;
+    
+}
+footer div img{
+    margin-left: 23px;
+    margin-right: 23px;
+    cursor: pointer;
+}
+footer div img:hover{
+    transform: scale(1.1);
 }
