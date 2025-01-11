@@ -1,7 +1,10 @@
-*{
+*{margin: 0px;
+    padding: 0px;
 }
 body{
     background:rgb(245, 245, 245);
+  margin-left: 15%;
+  
 }
 
 /* shared stuff */
@@ -745,6 +748,7 @@ font-weight: 700;
 .hr-class{
     border: 1px solid rgba(14, 14, 14, 0.1);
     width: 980px;
+    margin-left: 15%;
 }
 .div-img{  
     display: flex;
