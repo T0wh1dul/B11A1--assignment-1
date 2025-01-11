@@ -2,6 +2,10 @@
 }
 body{
     background:rgb(245, 245, 245);
+    /* Bangladesh 2.0 */
+position: relative;
+width: 1600px;
+height: 5300px;
 }
 
 /* shared stuff */
@@ -382,4 +386,308 @@ border-radius: 4px;
 background: rgb(198, 228, 214);
 }
 
-/* new section  */
+ /* 5th section (recent news) */
+
+.sec-5th-m{
+    width: 1280px;
+height: 1006px;
+margin-top: 120px;
+
+
+}
+
+
+.sec-5th-sm-h{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size:40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+
+
+}
+
+.section-5th-main-pera{
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.section-5th-box{
+    border-radius: 24px;
+    margin: 24px 0px;
+background: rgb(255, 255, 255);
+padding: 48px;
+display: flex;
+
+
+}
+
+
+
+.section-5th-box-img{
+    width: 408px;
+height: 306px;
+
+border-radius: 24px;
+
+ 
+}
+
+
+.section-5th-box-des{
+    width: 744px;
+    height: 290px;
+    margin: 0px 32px;
+}
+.section-5th-box-des-h{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left; 
+}
+
+.btn-sec-5{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 500;
+text-align: left;  
+background: rgb(0, 106, 80);
+border-radius: 8px;
+margin-bottom: 56px 0px;
+color: aliceblue;
+padding: 13px 26px 13px 26px;
+border: none;
+
+}
+
+
+/* section 6 donate today */
+
+.sec-6-m{
+    /* Frame 2087325516 */
+position: static;
+width: 1280px;
+height: 464px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+/* margin-top: 80px; */
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+.sec-6-heading{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.sec-6-pera{color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 1104px;
+height: 40px;
+
+}
+
+.donate-class{
+    width: 1071px;
+height: 128px;
+margin: 32px 0px;
+display: flex;
+}
+.bg-donate{
+    background: rgb(198, 228, 214);
+}
+.bd-white{background: rgb(255, 255, 255)}
+.donate-btn-1{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+/*     
+    background: rgb(255, 255, 255); */
+   
+
+/* Frame 2087325513 */
+position: static;
+width: 245px;
+height: 128px;
+/* Auto layout */
+
+gap: 20;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 20px;
+
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+
+}
+
+.btn-sec-6{
+
+/* Frame 2 */
+position: static;
+width: 151px;
+height: 56px;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 32px 0px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-weight: 600;
+}
+
+.donate-amount{
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+width: 1032px;
+height: 64px;
+padding: 20px 40px 20px 40px;
+border: none;
+text-align: center;
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+}
+/* section 7 */
+
+.sec-7-main{
+
+width: 1280px;
+height: 295px;
+padding: 80px 0px 80px 0px;
+margin: 80px 0px;
+text-align: center;
+
+border-radius: 24px;
+background: rgb(198, 228, 214);
+
+
+}
+
+.sec-7-heading{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sec-7-pera{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin: 16px 0px;
+}
+
+
+.sec-7-challenge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.sec-7-input{
+    padding: 18px 40px 18px 40px;
+    color: rgba(14, 14, 14, 0.3);
+
+font-size: 16px;
+font-weight: 400;
+
+border: none;
+border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+
+}
+.sec-7-submit{
+    padding: 18px 40px 18px 40px;
+    border-radius: 0px 8px 8px 0px;
+
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+border: none;
+}
+.sec-7-lastpera{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+margin: 24px 0px;
+}
+
+/* footer-last section */
+
+
+.footer-
+.footer-h{
+width: 222px;
+height: 38px;
+
+
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: center;
+
+}
